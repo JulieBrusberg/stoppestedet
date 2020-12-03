@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+.baggrund{
+    width: 100%;
+    position: absolute;
+}
+.hus{
+    width: 100%;
+    position: absolute;
+}
