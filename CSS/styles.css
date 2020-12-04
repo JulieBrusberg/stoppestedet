@@ -38,7 +38,7 @@ h1{
     position: relative;
     text-decoration: none;
     color: #303231;
-
+    font-size: 15px;
 }
 .corona{
     font-size: 80%;
@@ -56,5 +56,21 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin-left: 17%;
+    margin-right: 17%;
     margin-top: 46%;
+}
+.line{
+    display: flex;  
+    align-self: center;
+    border: 1px solid #B9282D;
+    width: 90%;
+}
+h2{
+    margin-top: 1%;
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    color: #B9282D;  
+    margin-left: 5%;
 }
