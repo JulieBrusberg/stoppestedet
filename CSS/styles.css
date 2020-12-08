@@ -82,15 +82,15 @@ h2{
     font-size: 80%;
     margin-top: 10%;
     color: #303231;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
     line-height: 1.7;
 }
 .tekstbox1{
     font-size: 80%;
     margin-top: 5%;
     color: #303231;
-    margin-left: 6%;   
+    margin-left: 5%;   
     margin-right: 4%;
     line-height: 1.7;
 }
@@ -130,7 +130,7 @@ h3{
     margin-left: 5%;
     }
 .navn{
-    margin-top: 38%;
+    margin-top: 33%;
     position: absolute;
     font-family: 'Amatic SC', cursive;
     font-size: 30px;
@@ -151,8 +151,8 @@ h3{
     font-size: 80%;
     margin-top: 20%;
     color: #303231;
-    margin-left: 6%;
-    margin-right: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
     line-height: 1.7;
     margin-bottom: -5%;
 }
@@ -163,4 +163,66 @@ h4{
     font-size: 25px;
     color: #B9282D;  
     margin-left: 75%;
+}
+.spørgsmål{
+    margin-top: 20%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    color: #B9282D;  
+    margin-left: 5%; 
+}
+.dropdown{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color:#DEDCD8;
+    color: #b9292d;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+.skrivnavn{
+    margin-top: 5%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    color: #B9282D;  
+    margin-left: 5%; 
+    margin-right: 5%;
+    border: 1px  solid #303231;
+    background-color: #DEDCD8; 
+}
+.tekstboxskema{
+    font-size:100%;
+    margin-top: 5%;
+    color: #303231;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.7;
+    text-align: center;
+}
+.spørgsmål1{
+    margin-top: 5%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    color: #B9282D;  
+    margin-left: 5%; 
+    font-weight: bold;
+}
+.inputfelt{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 15px;
+    color: #B9282D;
+    height: 150px;
+    text-decoration: none;
+    border: 1px  solid #303231;     
+    background-color: #DEDCD8;
+}
+.send{
+    margin-top: 5%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    margin-left: 40%;
+    margin-right: 40%;
 }
