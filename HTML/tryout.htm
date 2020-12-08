@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        #condiv {
+            height: 8900px;
+            width: 500px;
+            overflow: auto;
+            background: #82c93a;
+        }
+
+        #ele {
+            top: 70%;
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>Click the button to scroll to the element.</p>
+
+    <button onclick="scrolldiv()">Scroll</button>
+    <div id="condiv">
+        <div id="ele">
+            GeeksforGeeks
+        </div>
+    </div>
+    <script>
+        function scrolldiv() {
+            var elem = document.getElementById("ele");
+            elem.scrollIntoView();
+        } 
+    </script>
+</body>
+
+</html>
