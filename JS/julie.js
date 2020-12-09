@@ -1,3 +1,6 @@
+alert("HUSK AT LÆS OM DE NYE CORONA RETNINGSLINJER")
+
+
 
 function scrollomos() {
     var elem = document.getElementById("omos");

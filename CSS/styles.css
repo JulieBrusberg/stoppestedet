@@ -41,16 +41,25 @@ h1{
     background-color: #E4B3B1;
     border: none;
 }
-.undersider.hover{
+.undersider:hover{
     color:#B9282D;
 }
 .corona{
     font-size: 80%;
-    margin-top: -10%;
-    color: #707070;
+    margin-top: 2%;
+    color: #303231;
     margin-left: 6%;
     margin-right: 6%;
-    }
+}
+.opdatering{
+    margin-left: 5%;
+    margin-top: -10%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    color: #B9282D;  
+    margin-left: 5%; 
+    font-weight: bold;
+}
 .pare{
     width: 12%;
     margin-top: 100%;
@@ -104,14 +113,13 @@ h2{
     margin-bottom: 5%;
 }
 .afro{
-    margin-top: 32%;
-    margin-left: -10%;
+    margin-left: -15%;
 }
 h3{
     margin-top: 12%;
     position: absolute;
     font-family: 'Amatic SC', cursive;
-    font-size: 20px;
+    font-size: 22px;
     color: #B9282D;  
     margin-left: 6%;
     text-decoration: underline;
@@ -179,14 +187,20 @@ h4{
     color: #b9292d;
     font-family: 'Amatic SC', cursive;
     font-size: 20px;
+    font-weight: bold;
+    padding: 1%;
+    letter-spacing: 1px;
 }
 .skrivnavn{
     margin-top: 5%;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     color: #B9282D;  
     margin-left: 5%; 
     margin-right: 5%;
+    padding-left: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     border: 1px  solid #303231;
     background-color: #DEDCD8; 
 }
@@ -202,18 +216,17 @@ h4{
 .spørgsmål1{
     margin-top: 5%;
     font-family: 'Amatic SC', cursive;
-    font-size: 25px;
+    font-size: 22px;
     color: #B9282D;  
     margin-left: 5%; 
-    font-weight: bold;
+    margin-right: 5%;
 }
 .inputfelt{
     margin-top: 2%;
     margin-left: 5%;
     margin-right: 5%;
-    font-family: 'Amatic SC', cursive;
     font-size: 15px;
-    color: #B9282D;
+    color: black;
     height: 150px;
     text-decoration: none;
     border: 1px  solid #303231;     
@@ -225,4 +238,7 @@ h4{
     font-size: 25px;
     margin-left: 40%;
     margin-right: 40%;
+}
+.send:hover{
+color: #B9282D;
 }
