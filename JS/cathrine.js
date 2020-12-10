@@ -14,6 +14,7 @@ function klikStoppestedet() {
     document.getElementById("klikStoppestedet").innerHTML = "";
 }
 // Hide & show event //
+
 function klikStoppestedet() {
     var x = document.getElementById("klikStoppestedet");
     if (x.style.display === "none") {
@@ -22,4 +23,15 @@ function klikStoppestedet() {
     else {
         x.style.display = "none"
     }
-} 
+}
+
+function klikStoppestedet2() {
+    var u = document.getElementById("klikAbentsind"); {
+        if (u.style.display === "none") {
+            u.style.display = "block";
+        }
+        else {
+            u.style.display = "none"
+        }
+    }
+}
