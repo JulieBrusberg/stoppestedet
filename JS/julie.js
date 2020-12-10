@@ -1,20 +1,23 @@
-alert("HUSK AT LÆS OM DE NYE CORONA RETNINGSLINJER")
-
-
-
-
-function scrollomos() {
-    var elem = document.getElementById("omos");
-    elem.scrollIntoView();
+// ALERT
+alert("OBS: HUSK AT LÆSE OM DE NYE COVID-19 RETNINGSLINJER!")
+// SCROLL FUNKTION
+function ScrollOmOs() {
+    document.getElementById("omos").scrollIntoView();
 }
-function scrollperso() {
-    var elem = document.getElementById("perso");
-    elem.scrollIntoView();
+function ScrollPerso() {
+    document.getElementById("perso").scrollIntoView();
 }
-function scrollfri() {
+// TO MÅDER
+function ScrollFri() {
     var elem = document.getElementById("fri");
     elem.scrollIntoView();
 }
+function scrollblivfri() {
+    var elem = document.getElementById("blivfri");
+    elem.scrollIntoView();
+}
+
+// DROPDOWN
 var frivillige = Array("CAFEFRIVLLIG", "AKTIVITETSFRIVILLIG", "TELEFONRÅDGIVNING", "ÅENTSIND UNGEGRUPPE", "PEER TO PEER", "SKIBHUSKABYSSEN"),
     selectEl = document.getElementById('frivillige');
 
