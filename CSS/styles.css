@@ -310,6 +310,9 @@ h5{
     margin-left: 5%;
     font-family: Arial, Helvetica, sans-serif;
 }
+.containertid{
+    display: flex;
+}
 .nada{
     margin-top: 4%;
     margin-left: 5%;
