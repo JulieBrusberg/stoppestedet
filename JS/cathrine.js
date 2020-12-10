@@ -14,3 +14,11 @@ function scrollVoresKalender() {
 function klikStoppestedet() {
     document.getElementById("klikStoppestedet").innerHTML = "";
 }
+// Hide & show event //
+function klikStoppestedet() {
+    var x = document.getElementById("klikStoppestedet");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    else { x.style.display = "none"; }
+}
