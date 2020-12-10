@@ -10,8 +10,8 @@ function scrollVoresKalender() {
     document.getElementById("voresKalender").scrollIntoView();
 }
 
-// Hide & show event //
 function klikStoppestedet() {
+<<<<<<< Updated upstream
     document.getElementById("klikStoppestedet").innerHTML = "";
 }
 // Hide & show event //
@@ -21,4 +21,12 @@ function klikStoppestedet() {
         x.style.display = "block";
     }
     else { x.style.display = "none"; }
+=======
+    var x = document.getElementById("klikStoppestedet");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+>>>>>>> Stashed changes
 }
