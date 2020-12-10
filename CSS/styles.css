@@ -242,3 +242,252 @@ h4{
 .send:hover{
 color: #B9282D;
 }
+
+/* Cathrine */
+h5{
+    color: #b6151b;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+}
+.containertilbud{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+.etto{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.trefire{
+    display: flex;
+    flex-direction: reverse;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.femseks{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.syvotte{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.stop{
+    margin-left: 8%;
+}
+.fast{
+    margin-top: 10%;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303231;
+    font-size: 26px;
+}
+.mdr{
+    margin-top: 2%;
+    color: #b6151b;
+    font-size: 15px;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nada{
+    margin-top: 4%;
+    margin-left: 5%;
+    color: #303231;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.dage2{
+    margin-top: 5%;
+    margin-left: 5%;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303231;
+} 
+.tidspunkt4{
+    margin-top: 5%;
+    margin-left: 37%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    line-height: 1.7;
+    color: #303231;
+}   
+.husk{
+    margin-top: 4%;
+    margin-left: 5%;
+    color: #303231;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.containerkalender{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0% 3% 0% 3%;
+    align-items: center;
+    color: #303231;
+}
+.tir{
+    display: flex;
+    position: relative; 
+    align-items: center;
+    justify-content: center;
+    background-color: #B9282D;
+    color: #FFFFFF;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+.ons{
+    display: flex;
+    position: relative; 
+    align-items: center;
+    justify-content: center;
+    background-color: #EC6365;
+    color: #FFFFFF;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+.tor{
+    display: flex;
+    position: relative; 
+    align-items: center;
+    justify-content: center;
+    background-color: #F7161E;
+    color: #FFFFFF;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+.fre{
+    display: flex;
+    position: relative; 
+    align-items: center;
+    justify-content: center;
+    background-color: #803636;
+    color: #FFFFFF;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+.linetir{
+    border: 3px solid #B9282D;
+    border-radius: 25px;
+    width: 65%;
+    transform: rotate(90deg);
+    margin-top: 45%;
+    margin-left: -25%;
+}
+.lineons{
+    border: 3px solid #EC6365;
+    border-radius: 25px;
+    width: 35%;
+    transform: rotate(90deg);
+    margin-top: 35%;
+    margin-left: -10%;
+
+}
+.linetor{
+    border: 3px solid #F7161E;
+    border-radius: 25px;
+    width: 35%;
+    transform: rotate(90deg);
+    margin-top: 35%;
+    margin-left: -10%;
+}
+.linefre{
+    border: 3px solid #803636;
+    border-radius: 25px;
+    width: 35%;
+    transform: rotate(90deg);
+    margin-top: 35%;
+    margin-left: -10%;
+}
+.tirtext{
+    margin-left: 10%;
+}
+.kalenderdag1{
+    margin-top: -39%;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303231;
+    font-weight: bold;
+    font-size: 20px;
+}
+.eventtir{
+    margin-top: 1%;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #B9282D;
+    font-weight: bold;
+    font-size: 15px;
+}
+.containerkalender1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.ikon{
+    width: 30px;
+    height: 30px;
+    margin-top: 30%;
+    margin-left: 20%;
+    margin-right: 70%;
+}
+.tidspunktkalender{
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303231;
+    font-weight: bold;
+    font-size: 15px;
+}
+.eventons{
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #EC6365;
+    font-weight: bold;
+    font-size: 15px;
+}
+.kalenderdag2{
+    margin-top: -20%;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303231;
+    font-weight: bold;
+    font-size: 20px;
+}
+.eventtor{
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F7161E;
+    font-weight: bold;
+    font-size: 15px;
+}
+.eventfre{
+    margin-top: 2%;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #803636;
+    font-weight: bold;
+    font-size: 15px;
+}
+.kalenderdag3{
+    margin-top: -20%;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #303231;
+    font-weight: bold;
+    font-size: 20px;
+}
