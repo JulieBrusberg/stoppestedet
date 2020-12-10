@@ -401,10 +401,11 @@ h5{
 .linetir{
     border: 3px solid #B9282D;
     border-radius: 25px;
-    width: 65%;
+    width: 63%;
     transform: rotate(90deg);
     margin-top: 45%;
-    margin-left: -25%;
+    margin-bottom: 2%;
+    margin-left: -24%;
 }
 .lineons{
     border: 3px solid #EC6365;
@@ -426,10 +427,11 @@ h5{
 .linefre{
     border: 3px solid #803636;
     border-radius: 25px;
-    width: 35%;
+    width: 30%;
     transform: rotate(90deg);
     margin-top: 35%;
-    margin-left: -10%;
+    margin-bottom: 2%;
+    margin-left: -7%;
 }
 .tirtext{
     margin-left: 10%;

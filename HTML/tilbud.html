@@ -17,8 +17,8 @@
         <img class="logo" src="/longsindrot.png" alt="logo">
         <img class="hus" src="/bygningillustrationrod01.png" alt="illustration af et hus">
         <div id="links">
-            <button class="undersider">Tilbud</button>
-            <button class="undersider">Kalender</button>
+            <button onclick="scrollVoresTilbud()" class="undersider">Tilbud</button>
+            <button onclick="scrollVoresKalender()" class="undersider">Kalender</button>
         </div>
     </div>
     <div>
@@ -43,7 +43,7 @@
     <br>
     <div class="container">
         <hr class="line">
-        <h2>TILBUD</h2>
+        <h2 id="voresTilbud">TILBUD</h2>
     </div>
     <br>
     <br>
@@ -51,9 +51,9 @@
     <div class="containertilbud">
         <div class="etto">
             <div class="stop">
-                <img onclick="myFunction()" src="/stopp.png" alt="">
+                <img onclick="klikStoppestedet()" src="/stopp.png" alt="">
                 <h5>Stoppestedet</h5>
-                <p id="demo"></p>
+                <p id="klikStoppestedet"></p>
             </div>
             <div class="stop">
                 <img src="/aabent.png" alt="">
@@ -100,7 +100,7 @@
     </div>
     <div class="container">
         <hr class="line">
-        <h2>Kalender</h2>
+        <h2 id="voresKalender">Kalender</h2>
     </div>
     <p class="fast">Faste aktiviteter</p>
     <p class="mdr"> November/December</p>
