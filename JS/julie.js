@@ -1,14 +1,14 @@
 // ALERT
 alert("OBS: HUSK AT LÆSE OM DE NYE COVID-19 RETNINGSLINJER!")
 // SCROLL FUNKTION
-function ScrollOmOs() {
+function scrollomos() {
     document.getElementById("omos").scrollIntoView();
 }
-function ScrollPerso() {
+function scrollperso() {
     document.getElementById("perso").scrollIntoView();
 }
 // TO MÅDER
-function ScrollFri() {
+function scrollfri() {
     var elem = document.getElementById("fri");
     elem.scrollIntoView();
 }
