@@ -521,6 +521,24 @@ h5{
 }
 #klikAbentsind {
     position: relative;
-    width: 200%;
-    margin-left: -95%;
+    width: 180%;
+    margin-left: -105%;
+}
+
+#klikSam {
+    position: relative;
+    width: 180%;
+    margin-left: -105%;
+}
+
+#klikSK {
+    position: relative;
+    width: 180%;
+    margin-left: -105%;
+}
+
+#klikBS {
+    position: relative;
+    width: 180%;
+    margin-left: -105%;
 }
