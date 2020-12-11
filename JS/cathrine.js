@@ -1,5 +1,5 @@
 // Alert //
-alert("OBS: HUSK AT LÆSE OM DE NYE COVID-19 RETNINGSLIJNER!")
+lert("OBS: HUSK AT LÆSE OM DE NYE COVID-19 RETNINGSLIJNER!")
 
 
 // Scroll function //
