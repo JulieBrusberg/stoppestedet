@@ -7,6 +7,7 @@
     <title>Styleguide for Stoppestedet</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap">
     <link rel="stylesheet" href="/CSS/styles.css">
+    <script defer src="/JS/styleguide.js"></script>
 </head>
 
 <body class="styleback">
@@ -14,18 +15,18 @@
         <div class="styleguide">STYLEGUIDE</div>
         <img class="logostyle" src="/longsindrot.png" alt="">
         <div class="stylecontainer">
-            <button onclick="" class="styleknapper">FARVER</button>
-            <button onclick="" class="styleknapper">FORMER</button>
-            <button onclick="" class="styleknapper">MOODBOARD</button>
-            <button onclick="" class="styleknapper">SKRIFT</button>
-            <button onclick="" class="styleknapper">KNAPPER</button>
-            <button onclick="" class="styleknapper">ILLUSTRATIONER</button>
-            <button onclick="" class="styleknapper">IKONER</button>
+            <button onclick="scrolltofarver()" class="styleknapper">FARVER</button>
+            <button onclick="scrolltoformer()" class="styleknapper">FORMER</button>
+            <button onclick="scrolltomood()" class="styleknapper">MOODBOARD</button>
+            <button onclick="scrolltoskrift()" class="styleknapper">SKRIFT</button>
+            <button onclick="scrolltoknap()" class="styleknapper">KNAPPER</button>
+            <button onclick="scrolltoilu()" class="styleknapper">ILLUSTRATIONER</button>
+            <button onclick="scrolltoikon()" class="styleknapper">IKONER</button>
         </div>
     </div>
     <div class="container">
         <hr class="linestyle">
-        <h2 class="styleline">FARVER</h2>
+        <h2 id="farver" class="styleline">FARVER</h2>
     </div>
     <div class="stylecontainer1">
         <div id="mork">
@@ -51,7 +52,7 @@
     </div>
     <div class="container">
         <hr class="linestyle">
-        <h2 class="styleline">FORMER</h2>
+        <h2 id="former" class="styleline">FORMER</h2>
     </div>
     <div class="containerformer">
         <div class="containerformer">
@@ -155,12 +156,12 @@
     </div>
     <div class="container">
         <hr class="linestyle">
-        <h2 class="styleline">MOOD</h2>
+        <h2 id="mood" class="styleline">MOODBOARD</h2>
     </div>
     <img class="moodboard" src="/moodboard.png" alt="Vores moodboard">
     <div class="container">
         <hr class="linestyle">
-        <h2 class="styleline">SKRIFT</h2>
+        <h2 id="skrift" class="styleline">SKRIFT</h2>
     </div>
     <div class="skriftcontainer">
         <div class="undercontainer">
@@ -212,7 +213,7 @@
     </div>
     <div class="container">
         <hr class="linestyle">
-        <h2 class="styleline">KNAPPER</h2>
+        <h2 id="knap" class="styleline">KNAPPER</h2>
     </div>
     <div class="undercontainer">
         <img class="sendknapperbillede" src="/sendkanpper.png" alt="">
@@ -229,7 +230,7 @@
     </div>
     <div class="container">
         <hr class="linestyle">
-        <h2 class="styleline">ILLUSTRATIONER</h2>
+        <h2 id="ilu" class="styleline">ILLUSTRATIONER</h2>
     </div>
     <div class="containertilbud1">
         <div>
@@ -271,7 +272,7 @@
     </div>
     <div class="container">
         <hr class="linestyle">
-        <h2 class="styleline">IKONER</h2>
+        <h2 id="ikon" class="styleline">IKONER</h2>
     </div>
     <div>
         <div>
@@ -284,40 +285,25 @@
             <img class="coronaopdatering" src="/coronaopdatering.png" alt="Coronaopdatering">
         </div>
         <div>
-            <img src="/pare.png" alt="">
+            <img class="kodenpare" src="/pare.png" alt="">
+        </div>
+    </div>
+    <div class="container">
+        <div>
+            <img class="ikonstyle" src="/klokke.png" alt="Ikoner">
+            <img class="ikonstyle1" src="/lokation.png" alt="Ikoner">
+        </div>
+        <div>
+            <hr class="lineformpare">
+        </div>
+        <div>
+            <img class="klokkelokation" src="/klokkelokation.png" alt="Ikoner">
+        </div>
+        <div>
+            <img class="kodenpare" src="/ikon.png" alt="Ikon kode">
         </div>
     </div>
 </body>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 <br>
 <br>
 <br>

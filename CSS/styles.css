@@ -671,7 +671,7 @@ h5{
     margin-top: 6%;
     position: absolute;
     font-family: 'Amatic SC', cursive;
-    font-size: 30px;
+    font-size: 40px;
     color: #b6151b;  
     margin-left: 5%;
 }
@@ -1142,4 +1142,32 @@ h5{
     width: auto;
     margin-left: 37%;
     margin-top: -7%;
+}
+.kodenpare{
+    margin-top: -25%;
+    margin-left: 70%;
+    width: 20%;
+    height: 20%;
+    background-color: #DEDCD8;
+    padding: 1%;
+    border-radius: 25px;
+}
+.ikonstyle{
+    width: 110px;
+    height: 110px;
+    margin-top: 10%;
+    margin-left: 12%;
+    margin-right: 70%;
+}
+.ikonstyle1{
+    width: 110px;
+    height: 110px;
+    margin-top: 1%;
+    margin-left: 12%;
+    margin-right: 70%;
+}
+.klokkelokation{
+    width: auto;
+    margin-left: 37%;
+    margin-top: -12%;
 }
