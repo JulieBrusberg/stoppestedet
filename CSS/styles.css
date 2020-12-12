@@ -1068,3 +1068,78 @@ h5{
     width: 250px;
     margin-left: 170%;
 }
+.sendknapperbillede{
+    margin-top: 15%;
+    width: 50%;
+    height: 50%;
+}
+.kodensend{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 30%;
+    height: 30%;
+    background-color: #DEDCD8;
+    padding: 1%;
+    border-radius: 25px;
+}
+.kodensend1{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 20%;
+    height: 20%;
+    background-color: #DEDCD8;
+    padding: 1%;
+    border-radius: 25px;
+}
+.scrolldownknapper{
+    position: absolute;
+    width: 35%;
+    height: 15%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+.ifelsecath{
+    margin-top: 10%;
+    margin-left: 15%;
+    margin-right: 5%;
+    width: 30%;
+    height: 30%; 
+}
+.containertilbud1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+.hus{
+    display: block;
+    width: 25%;
+    height: 50%;
+    margin-left: 15%;
+}
+.afrostyle{
+    width: 15%;
+    margin-left: 60%;
+    margin-top: 10%;
+}
+.pare1{
+    width: 12%;
+    margin-top: 5%;
+    margin-left: 10%; 
+}
+.lineformpare{
+    margin-top: -5%;
+    width: 250px;
+    margin-left: 22%;
+}
+.coronaopdatering{
+    width: auto;
+    margin-left: 37%;
+    margin-top: -7%;
+}
