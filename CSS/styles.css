@@ -136,10 +136,6 @@ h3{
     margin-top: 20%;
     margin-left: 5%;
 }
-.medarbejder1{
-    margin-top: 10%;
-    margin-left: 5%;
-    }
 .navn{
     margin-top: 33%;
     position: absolute;
@@ -149,6 +145,10 @@ h3{
     margin-left: 60%;
     font-weight: bold;
 }
+.medarbejder1{
+    margin-top: 10%;
+    margin-left: 5%;
+    }
 .navn1{
     margin-top: 27%;
     position: absolute;
@@ -867,4 +867,204 @@ h5{
     background-color: #DEDCD8;
     padding: 3%;
     border-radius: 25px;
+}
+.linestylerot{
+    margin-left: 20%;
+    margin-top: 20%;
+}
+.lineform3{
+    margin-top: -13%;
+    width: 250px;
+    margin-left: 40%;
+}
+.lineindholdstyle{
+    margin-left: 90%;
+    margin-top: -13%;
+}
+.kodekalender{
+    margin-left: 150%;
+    margin-top: -60%;
+    width: 60%;
+    height: 60%;
+    background-color: #DEDCD8;
+    padding: 3%;
+    border-radius: 25px;
+}
+.koden4{
+    margin-top: 130%;
+    margin-left: -120%;
+    width: 60%;
+    height: 60%;
+    background-color: #DEDCD8;
+    padding: 3%;
+    border-radius: 25px;
+}
+.circlebillede{
+    position: absolute;
+    margin-left: -15%;
+    margin-top: -15%;
+}
+.lineform4{
+    margin-top: -29%;
+    width: 250px;
+    margin-left: 10%;
+}
+.circlebillede1{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: -5%;
+}
+.form5{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30%; 
+}
+.linestyle1{
+    display: flex;  
+    align-self: center;
+    border: 1px solid #b6151b;
+    width: 300px;
+    margin-left: 20%;
+}
+.lineform5{
+    margin-top: 0%;
+    width: 250px;
+    margin-left: 65%;
+}
+.linestyle2{
+    display: flex;  
+    align-self: center;
+    border: 1px solid #b6151b;
+    width: 300px;
+    margin-left: 80%;
+}
+.styleline1{
+    margin-top: 5px;
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    color: #b6151b;  
+    margin-left: 14%;
+}
+.kodenline{
+    margin-top: -20%;
+    margin-left: 60%;
+    width: 60%;
+    height: 100%;
+    background-color: #DEDCD8;
+    padding: 3%;
+    border-radius: 25px;
+}
+.moodboard{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 5%;
+}
+.skriftcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.undercontainer{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+}
+.overskrift{
+    margin-top: 6.5%;
+    align-self: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    color: #b6151b;  
+}
+.underoverskrift{
+    margin-top: 12.5%;
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    color: #b6151b;
+    margin-left: 60%;
+}
+.understreget{
+    margin-top: 12.5%;
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    font-size: 22px;
+    color: #b6151b;
+    text-decoration: underline;
+    letter-spacing: 1px;
+}
+.blivfrivilligh4{
+    margin-top: 12.5%;
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    color: #b6151b;  
+    margin-left: 70%;
+}
+.stoppestedeth5{
+    margin-top: 12.5%;
+    position: absolute;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    color: #b6151b;  
+    margin-left: 10%;
+}
+.kodenh1{
+    margin-top: 10%;
+    margin-left: 80%;
+    width: 90%;
+    height: 90%;
+    background-color: #DEDCD8;
+    padding: 3%;
+    border-radius: 25px;
+}
+.kodenh2{
+    margin-top: 10%;
+    width: 90%;
+    height: 90%;
+    background-color: #DEDCD8;
+    padding: 3%;
+    border-radius: 25px;
+}
+.kodenh3{
+    margin-top: 10%;
+    width: 90%;
+    height: 90%;
+    background-color: #DEDCD8;
+    padding: 3%;
+    border-radius: 25px;
+    margin-left: 102%;
+}
+.kodenh4{
+    margin-top: 10%;
+    width: 90%;
+    height: 90%;
+    background-color: #DEDCD8;
+    padding: 3%;
+    border-radius: 25px;
+}
+.kodenh5{
+    margin-top: 10%;
+    width: 90%;
+    height: 90%;
+    background-color: #DEDCD8;
+    padding: 3%;
+    border-radius: 25px;
+}
+.lineformh1{
+    margin-top: 95%;
+    width: 250px;
+    margin-left: 120%;
+}
+.lineformh2{
+    margin-top: 95%;
+    width: 250px;
+    margin-left: 50%; 
+}
+.lineformh3{
+    margin-top: 95%;
+    width: 250px;
+    margin-left: 170%;
 }
