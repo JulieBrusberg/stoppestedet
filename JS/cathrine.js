@@ -2,7 +2,7 @@
 lert("OBS: HUSK AT LÆSE OM DE NYE COVID-19 RETNINGSLIJNER!")
 
 
-// Scroll function //
+// Function - Scroll //
 function scrollVoresTilbud() {
     document.getElementById("voresTilbud").scrollIntoView();
 }
@@ -11,12 +11,11 @@ function scrollVoresKalender() {
     document.getElementById("voresKalender").scrollIntoView();
 }
 
-function klikStoppestedet() {
-    document.getElementById("klikStoppestedet").innerHTML = "";
-}
+// Array & Loop - Dropdown //
+var tilbudStoppestedet = Array("STOPPESTEDET", "ÅBENT SIND UNGEGRUPPE", "PEER TO PEER", "SAMVÆRSVEN", "PÅRØRENDE GRUPPER", "SKIBHUS KABYSSEN", "TELEFONRÅDGIVNING", "BISIDDER"),
+    selectEl = document.getElementById('tilbudStoppestedet');
 
-
-// Hide & show event //
+// Event - Hide & show //
 
 function klikStoppestedet() {
     var x = document.getElementById("klikStoppestedet");
@@ -104,3 +103,7 @@ function klikStoppestedet8() {
         }
     }
 }
+
+//Objekt//
+
+var kalender = { Dag: "Tirsdage", Aktivitet: "Walk n´ Talk", Tid: "Kl. 13.00", Lokation: "Afarten ved Munkemose" };
