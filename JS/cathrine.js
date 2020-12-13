@@ -1,5 +1,5 @@
 // Alert //
-lert("OBS: HUSK AT LÆSE OM DE NYE COVID-19 RETNINGSLIJNER!")
+alert("OBS: HUSK AT LÆSE OM DE NYE COVID-19 RETNINGSLIJNER!")
 
 
 // Function - Scroll //
@@ -14,6 +14,10 @@ function scrollVoresKalender() {
 // Array & Loop - Dropdown //
 var tilbudStoppestedet = Array("STOPPESTEDET", "ÅBENT SIND UNGEGRUPPE", "PEER TO PEER", "SAMVÆRSVEN", "PÅRØRENDE GRUPPER", "SKIBHUS KABYSSEN", "TELEFONRÅDGIVNING", "BISIDDER"),
     selectEl = document.getElementById('tilbudStoppestedet');
+
+for (var i = 0; i < tilbudStoppestedet.length; i++) {
+    selectEl.options.add(new Option(tilbudStoppestedet[i], tilbudStoppestedet[i]));
+}
 
 // Event - Hide & show //
 
