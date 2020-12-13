@@ -54,7 +54,7 @@ h1{
 }
 .opdatering{
     margin-left: 5%;
-    margin-top: -10%;
+    margin-top: -15%;
     font-family: 'Amatic SC', cursive;
     font-size: 35px;
     color: #b6151b;  
@@ -63,8 +63,8 @@ h1{
 }
 .pare{
     width: 12%;
-    margin-top: 100%;
-    margin-left: 80%;
+    margin-top: 105%;
+    margin-left: 85%;
 }
 #links{
     display: flex;
@@ -185,7 +185,7 @@ h4{
 .dropdown{
     margin-top: 5%;
     margin-left: 5%;
-    margin-right: 5%;
+    margin-right: 10%;
     background-color:#DEDCD8;
     color: #b6151b;
     font-family: 'Amatic SC', cursive;
@@ -199,6 +199,7 @@ h4{
 }
 .skrivnavn{
     margin-top: 5%;
+    width: 80%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     color: #b6151b;  
@@ -254,6 +255,11 @@ h4{
 .send:hover{
 color: #b6151b;
 border: 1px solid #b6151b;
+}
+#containerfrivillig{
+    display: flex;
+    flex-direction: column;
+    display: none;
 }
 
 /* CATHRINE */
@@ -1117,7 +1123,7 @@ h5{
     margin-right: 5%;
     margin-top: 5%;
 }
-.hus{
+.hus1{
     display: block;
     width: 25%;
     height: 50%;

@@ -22,9 +22,7 @@
             <button onclick="scrollfri()" class="undersider">Frivillige</button>
         </div>
     </div>
-    <div>
-        <img class="pare" src="/ikoner.png" alt="lilleikon">
-    </div>
+    <img id="blink" class="pare" src="/ikoner.png" alt="lilleikon">
     <div class="opdatering">
         En opdatering om Covid 19 !
     </div>
@@ -168,14 +166,20 @@
         cafe i Kochsgade.
     </div>
 
-    <h3 id="blivfri">BLIV FRIVILLIG</h3>
+    <h3 onclick=" BlivFrivilligKlik()" id="blivfri">KLIK HER FOR AT BLIVE FRIVILLIG</h3>
     <div class="container">
-        <label class="spørgsmål">Hvilken slags frivillig vil du gerne være?</label>
-        <select class="dropdown" id="frivillige"></select>
-        <input type="text" name="navn" class="skrivnavn" id="navn" placeholder="Navn">
-        <input type="number" name="phonenumber" class="skrivnavn" id="tlf" placeholder="Telefonnummer">
-        <input type="text" name="E-mail" class="skrivnavn" id="mail" placeholder="E-mail">
-        <input type="text" name="age" class="skrivnavn" id="alder" placeholder="Alder">
+        <br>
+        <br>
+        <br>
+        <br>
+        <div id="containerfrivillig">
+            <label class="spørgsmål">Hvilken slags frivillig vil du gerne være?</label>
+            <select class="dropdown" id="frivillige"></select>
+            <input type="text" name="navn" class="skrivnavn" id="navn" placeholder="Navn">
+            <input type="number" name="phonenumber" class="skrivnavn" id="tlf" placeholder="Telefonnummer">
+            <input type="text" name="E-mail" class="skrivnavn" id="mail" placeholder="E-mail">
+            <input type="text" name="age" class="skrivnavn" id="alder" placeholder="Alder">
+        </div>
         <div class="tekstboxskema">
             For at blive frivillig på Stoppestedet, har vi en række
             spørgsmål vi gerne vil have dit svar på for at lære dig
