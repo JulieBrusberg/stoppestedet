@@ -4,53 +4,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landingpage Stoppestedet</title>
-    <link rel="stylesheet" href="/CSS/styles.css">
+    <title>Åbeningstider og Kontakt</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap">
+    <script src="diana.js" defer ></script> 
 </head>
 
 <body class="baggrundfarve">
     <div class="container">
-        <img class="baggrund" src="/Baggrund3.png" alt="rød baggrund">
-        <h1>KONTAKT OG ÅBENINGSTIDER</h1>
-        <img class="logo" src="/longsindrot.png" alt="logo">
-        <img class="hus" src="/bygningillustrationrod01.png" alt="illustration af et hus">
+        <img class="baggrund" src="Baggrund3.png" alt="rød baggrund">
+        <h1>ÅBNINGSTIDER OG KONTAKT</h1>
+        <img class="logo" src="longsindrot.png" alt="logo">
+        <img class="hus" src="bygningillustrationrod01.png" alt="illustration af et hus">
         <div id="links">
-            <button class="undersider">Åbeningstider</button>
-            <button class="undersider">Kontakt</button>
+            <button onclick="scrollabning()" class="undersider">Åbningstider</button>
+            <button onclick="scrollkon()" class="undersider">Kontakt</button>
         </div>
     </div>
     <div>
-        <img class="pare" src="/ikoner.png" alt="lilleikon">
+        <img class="pare" src="ikoner.png" alt="lilleikon">
+    </div>
+    <div class="opdatering">
+        En opdatering om Covid 19 !
     </div>
     <div class="corona">
-        Lige en opdatering fra os i forbindelse med Covid 19 <br>
-        og hvad der gælder i forhold til de nye retningslinjer.
+        Hvad betyder de nye retningslinjer?
         <br>
         <br>
-        Stoppestedet er et socialt værested og vi er dermed undtaget for forsamlingsforbuddet på 10 personer.
+        Stoppestedet er et socialt værested, derfor er vi undtaget forsamlingsforbuddet på 10 pers. og må fortsat være
+        op til 50 pers.
         <br>
         <br>
-        Vi må fortsat være op til 50 pers. og skal selvfølgelig overholde krav om afstand og hygiejne.
+        Personale og frivillige skal bære visir eller mundbind.
         <br>
         <br>
-        Personale og frivillig skal fra torsdag d. 29/10 bære visir eller mundbind.
-        <br>
-        <br>
-        Der er ingen krav til, at besøgende skal bære mundbind. Men hvis man ønsker det, har vi også det til rådighed.
+        Du skal som besøgende ikke bære mundbind, men ønsker du det, har vi det til rådighed.
     </div>
     <br>
     <br>
     <div class="container">
         <hr class="line">
-        <h2>OVERSKRIFT</h2>
+        <h2 id="abningstider">ÅBNINGSTIDER</h2>
+    </div>
+    <div>
+        <h3>VÆRESTEDET</h3>
+        <div class="containertid">
+            <div class="dage">
+                Mandag:
+                <br>
+                Tirsdag:
+                <br>
+                Onsdag:
+                <br>
+                Torsdag:
+                <br>
+                Fredag:
+                <br>
+                Lørdag:
+                <br>
+                Søndag:
+                <br>
+                <br>
+                Helligedage:
+            </div>
+            <div class="tidspunkt">
+                11.00 - 22.00
+                <br>
+                11.00 - 15.00
+                <br>
+                11.00 - 22.00
+                <br>
+                11.00 - 22.00
+                <br>
+                11.00 - 22.00
+                <br>
+                14.00 - 20.00
+                <br>
+                14.00 - 20.00
+                <br>
+                <br>
+                14.00 - 20.00
+            </div>
+        </div>
+        <div class="hellig">
+            Værestedet Stoppestedet har åbent på alle helligdage
+            undtagen 1. januar.
+        </div>
+    </div>
+    <h3>TELEFONRÅDGIVNING</h3>
+    <div class="containertid">
+        <div class="dage1">
+            Hverdage:
+            <br>
+            Søn-/helligedag:
+            <br>
+            Lørdag lukket.
+        </div>
+        <div class="tidspunkt3">
+            11.00 - 22.00
+            <br>
+            17.00 - 22.00
+        </div>
+    </div>
+    <h3>UNGEGRUPPEN</h3>
+    <div class="containertid">
+        <div class="dage1">
+            Onsdag:
+        </div>
+        <div class="tidspunkt2">
+            18.00 - 21.00
+        </div>
+    </div>
+    <h3>SKIBHUS KABYSSEN</h3>
+    <div class="containertid">
+        <div class="dage1">
+            Tirsdag:
+        </div>
+        <div class="tidspunkt2">
+            16.00 - 20.00
+        </div>
     </div>
     <br>
     <br>
     <br>
+    <div>
+        <div class="container">
+            <hr class="line">
+            <h2 id="kontakt">KONTAKT</h2>
+        </div>
+        <div>
+            <div class="velkommen">Du er altid velkommen til at kontakte os!</div>
+            <div class="anon">Anonymt og uforpligtende.</div>
+        </div>
+        <div>
+            <div class="velkommen">TELEFON</div>
+            <div class="anon">Værestedet Stoppestedet: <i>66 19 02 65</i> </div>
+            <div class="anon1">Kontor: <i>66 19 03 26</i> </div>
+        </div>
+        <div>
+            <div class="velkommen">Adresse</div>
+            <div class="anon">
+                SIND værestedet Stoppestedet
+                <br>
+                Jernbanegade 24B
+                <br>
+                5000 Odense C.
+            </div>
+        </div>
+        <div>
+            <div class="velkommen">LEDER BIRGIT BODING</div>
+            <div class="anon">
+                Tlf.: <i>66 19 03 26 / 23 41 45 61</i>
+                <br>
+                E-mail: <i>bbhan@odense.dk</i>
+            </div>
+        </div>
+    </div>
     <br>
 
+<div class="container">
+    <label class="spørgsmål"></label>
+    <select class="dropdowndiana" id="fast"></select>
+    <br>
 
+<div class="main-banner" id="main-banner">
+    <a href="https://www.stoppestedet.dk">
+        
+        <div class="hovedbanner" id="hovedbanner">
+            <div class="imgban" id="imgban3">          
+</div>
+<div class="imgban" id="imgban2">                      
+</div>
+<div class="imgban" id="imgban1">                       
+</div>
+</a>
+ </div>
+</div>
 </body>
 
 </html>
