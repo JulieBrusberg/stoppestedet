@@ -35,4 +35,4 @@ function BlivFrivilligKlik() {
 }
 
 //Object
-var StoppestedetsBesøgende = { Type: "Unge Besøgende", AgeGroup: "18-35", Illness: "Mentally ill" };
+var StoppestedetsBesøgende = { Type: "Unge Besøgende", AgeGroup: "18-35", Illness: "Mentally ill", Livret: "Brændende Kærlighed" };
